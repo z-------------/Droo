@@ -1,0 +1,11 @@
+main: yy.zacharyguard.droo.Main
+name: Droo
+version: 0.0.0
+author: Zachary Guard
+description: Gyt sum werk dun, yeh?
+commands:
+  droo:
+    description: Gyt sum werk dun, yeh?
+    usage: /droo [username]
+    permission: bukkit.op
+    permission-message: Only ops (those with bukkit.op permission) are authorized to be enlightened by the inspirational words of Droo.
