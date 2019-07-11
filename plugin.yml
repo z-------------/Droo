@@ -1,11 +1,12 @@
-main: yy.zacharyguard.droo.Main
+main: yy.gourlitburo.droo.Main
 name: Droo
-version: 0.0.0
-author: Zachary Guard
+version: 0.0.1
+api-version: 1.14
+author: Zack Guard
 description: Gyt sum werk dun, yeh?
 commands:
   droo:
     description: Gyt sum werk dun, yeh?
-    usage: /droo [username]
+    usage: /droo [<player>]
     permission: bukkit.op
     permission-message: Only ops (those with bukkit.op permission) are authorized to be enlightened by the inspirational words of Droo.
