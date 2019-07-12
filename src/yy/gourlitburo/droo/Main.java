@@ -41,7 +41,10 @@ public class Main extends JavaPlugin implements Listener {
 
     if (args.length >= 1) { // send to specified player
       Player recipient = server.getPlayer(args[0]);
-      if (recipient == null) sender.sendMessage("Could not find player.");
+      if (recipient == null) {
+        sender.sendMessage("Could not find player.");
+        return true;
+      } 
 
       String senderName;
       if (sender instanceof Player) senderName = ((Player) sender).getDisplayName();
