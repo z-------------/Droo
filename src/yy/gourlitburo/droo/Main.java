@@ -51,9 +51,9 @@ public class Main extends JavaPlugin implements Listener {
       else if (sender instanceof ConsoleCommandSender) senderName = "the heavens";
       else senderName = sender.getName();
 
-      recipient.sendMessage(String.format("An inspirational message from %s: %s%s%s", senderName, ChatColor.BOLD, ChatColor.YELLOW, saying));
+      recipient.sendMessage(String.format("An inspirational message from %s: %s%s%s", senderName, ChatColor.YELLOW, ChatColor.BOLD, saying));
     } else { // send to sender
-      sender.sendMessage(String.format("%s%s%s", ChatColor.BOLD, ChatColor.YELLOW, saying));
+      sender.sendMessage(String.format("%s%s%s", ChatColor.YELLOW, ChatColor.BOLD, saying));
     }
 
     return true;
