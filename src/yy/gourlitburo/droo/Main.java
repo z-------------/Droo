@@ -52,6 +52,7 @@ public class Main extends JavaPlugin implements Listener {
       else senderName = sender.getName();
 
       recipient.sendMessage(String.format("An inspirational message from %s: %s%s%s", senderName, ChatColor.YELLOW, ChatColor.BOLD, saying));
+      sender.sendMessage(String.format("Sent to %s: %s%s%s", recipient.getName(), ChatColor.YELLOW, ChatColor.BOLD, saying));
     } else { // send to sender
       sender.sendMessage(String.format("%s%s%s", ChatColor.YELLOW, ChatColor.BOLD, saying));
     }
